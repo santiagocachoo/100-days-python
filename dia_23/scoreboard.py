@@ -1,4 +1,4 @@
-FONT = ("Cpurier", 24, "normal")
+FONT = ("Courier", 24, "normal")
 
 from turtle import Turtle
 
