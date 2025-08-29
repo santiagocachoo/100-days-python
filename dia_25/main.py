@@ -32,6 +32,10 @@ while game_is_on:
             scoreboard.write(answer_state, align="center", font=("Arial", 12, "normal"))
             screen.title(f"{SCORE}/50 U.S. States Game")
         
+if SCORE == 50:
+    screen.title("You Win! 50/50 U.S. States Game")
+    game_is_on = False
+
 
 screen.mainloop()
 
